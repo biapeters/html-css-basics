@@ -1,0 +1,125 @@
+html {
+    font-family: Poppins, sans-serif;
+    background-color: #FFF0F3;
+    color: #4A4A4A; 
+}
+
+h1, h2, h3 {
+    font-family: Baloo 2, cursive;
+    color: #D16C8D;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px 50px;
+    position:relative;
+    background-color: #FDECEF;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* header */
+
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-size: 40px;
+}
+
+.main-paragraph {
+    font-style:italic;
+}
+
+/* Imagem de destaque */
+.featured-image img {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+}
+
+.featured-image figure {
+  text-align: center;
+}
+
+.img-bold figure {
+  max-width: 280px;   
+  margin: 20px auto;
+  text-align: center;
+}
+
+.img-bold img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.img-bold {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  font-size: 14px;
+  color: #7a4a5a;
+}
+
+/*Biografia*/
+.section-biography {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #D16C8D;
+    border-bottom: 1px dashed #D16C8D;
+}
+
+/*Informações Adicionais*/
+
+.section {
+    padding: 25px 0;
+    margin: 25px 0;
+}
+
+.section--border {
+    border-bottom: 1px dashed #D16C8D;
+}
+
+section {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+  transform: translateY(-2px);
+}
+
+li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .main-title {
+    font-size: 32px;
+  }
+}
